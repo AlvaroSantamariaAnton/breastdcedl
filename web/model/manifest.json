@@ -1,0 +1,6 @@
+{
+  "sha256": "0b22349d09d115a779c6375f62ada50e492adbc7ab9eaaad0b04af6fc0bbc8d7",
+  "threshold": 0.35,
+  "source_manifest_sha256": "ba1aa1498841b401f31eef8b9e5111e1c6147256a5ac6ffd3bb5925ffe57f1cd",
+  "runtime_version": "1.31.1"
+}

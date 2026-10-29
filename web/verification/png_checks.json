@@ -1,0 +1,73 @@
+{
+  "valid": [
+    {
+      "files": [
+        "256x256_PRE.png",
+        "256x256_EARLY.png",
+        "256x256_LATE.png"
+      ],
+      "shape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "sha256": "00ee7b10ec0b8e34b55402fa9318e4948f07f508412c078c78c0c06917d0a9bb",
+      "expected": 0.7837408185005188,
+      "interlaced": false
+    },
+    {
+      "files": [
+        "244x244_PRE.png",
+        "244x244_EARLY.png",
+        "244x244_LATE.png"
+      ],
+      "shape": [
+        1,
+        3,
+        244,
+        244
+      ],
+      "sha256": "8246f17a5f23d9fd66e1ee622cc0deb18f1af172ae9a0b5b023a0878eedb59c6",
+      "expected": 0.7843499183654785,
+      "interlaced": false
+    },
+    {
+      "files": [
+        "31x49_PRE.png",
+        "31x49_EARLY.png",
+        "31x49_LATE.png"
+      ],
+      "shape": [
+        1,
+        3,
+        31,
+        49
+      ],
+      "sha256": "8846cf10e1f5e791a5ba82937f1a57a3ee6483338cef822f7e3c99485f5320ed",
+      "expected": 0.7887280583381653,
+      "interlaced": true
+    },
+    {
+      "files": [
+        "16x16_PRE.png",
+        "16x16_EARLY.png",
+        "16x16_LATE.png"
+      ],
+      "shape": [
+        1,
+        3,
+        16,
+        16
+      ],
+      "sha256": "9fab050feb549e2c211ff1b5582e708a59ab1d019a312abff29fd5017b2aa1cc",
+      "expected": 0.43672996759414673,
+      "interlaced": true
+    }
+  ],
+  "invalid": [
+    "invalid_RGB.png",
+    "invalid_I16.png",
+    "invalid_crc.png"
+  ]
+}
