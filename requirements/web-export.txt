@@ -1,0 +1,7 @@
+# Opcional: conversión/verificación CPU del predictor para web, en entorno cancer.
+# No cambia la instalación CUDA/ROCm de PyTorch.
+onnx==1.23.2
+onnxruntime==1.31.1
+protobuf==7.36.2
+ml_dtypes==0.6.0
+flatbuffers==25.12.19
