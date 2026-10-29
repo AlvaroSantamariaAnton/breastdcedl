@@ -1,0 +1,2107 @@
+{
+  "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z",
+  "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z",
+  "selection": "Selected reproducibility archive; original runs remain unchanged. Frozen manifests and source retain historical paths. Current operational manifest: experiments/modelo_final.json.",
+  "excluded_counts": {
+    "patient_image_review": 12,
+    "unselected_checkpoint": 222,
+    "per_epoch_figures": 1337,
+    "cache": 6
+  },
+  "files": [
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/audit.json",
+      "sha256": "0eb21abad37a851a21d59f9e7c52880200d98c446aadf01a6a9e348d895bf060",
+      "bytes": 1548
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/calibration.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/calibration.png",
+      "sha256": "c96689ed2a407b82bde2795e33e941b13379f93321ef9e404ae12601d18a5022",
+      "bytes": 55279
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/calibration_summary.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/calibration_summary.csv",
+      "sha256": "0da1159916036aff80c85570364420df350d1cbf6190b0f73409b36b2d9639dc",
+      "bytes": 1974
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/evaluate.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/evaluate.py",
+      "sha256": "f206d83e36dd90daee76d4d93933ba5a0a2505d2886b07d1960870c493f6ede7",
+      "bytes": 5384
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/plot.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/plot.py",
+      "sha256": "cca2e30df6fc3695c0230d644efbb4efdb12a2a8a8e783bb22550c64432c4ce3",
+      "bytes": 1499
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/plot_pillow.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/plot_pillow.py",
+      "sha256": "f3af0af688b3ae90cd15e4d196a37f549eb1710427fadc0bfcccdcbb3666d575",
+      "bytes": 2123
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/reliability_bins.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/calibration_review/reliability_bins.csv",
+      "sha256": "6ddcbaf6712921e0b0b22d0b73f49ad720e407eedd610ce0f1d688c771a23fba",
+      "bytes": 5212
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/audit_035.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/audit_035.json",
+      "sha256": "486e78be6430107af7acce26c82ce8f5dd51717a0625a39440389c409383dba2",
+      "bytes": 1236
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/cohorts_035.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/cohorts_035.csv",
+      "sha256": "2e2bcf871ed61d7a159160bddd637b5491f31eae2a2d2624d12bd5ec8f5ddc35",
+      "bytes": 880
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/cohorts_by_fold_035.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/cohorts_by_fold_035.csv",
+      "sha256": "b7624de10146acbb20b263a795ef71b0765c7b5ffc558031209a58efad38b596",
+      "bytes": 3702
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/evaluate_035.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/evaluate_035.py",
+      "sha256": "44e01421448a611dad0b430d06ec82c0f427a0381749293dae4aeabbbdce7547",
+      "bytes": 4653
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/metrics_035.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/cohort_review/metrics_035.csv",
+      "sha256": "e101896744715e0941cb069311e4ef69f886b982a68852a56bdf2c5f226445cc",
+      "bytes": 1758
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/config.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/config.json",
+      "sha256": "bf8e67ac2885a47691d211cfce28449424240e8eb4dd745a9ce46e6b4d25815c",
+      "bytes": 1403
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/confusion_matrix.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/confusion_matrix.png",
+      "sha256": "2fd37c72860e3ea641e3cf05f9d55d14262904c4b739b91e4e73b01f73112d97",
+      "bytes": 82800
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/curvas_conjuntas_normal.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/curvas_conjuntas_normal.png",
+      "sha256": "19057ddf022a6633eed733fdd8a3a451601f8aa78a6d627d878e67a5597552a8",
+      "bytes": 330711
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/curvas_detalle_normal.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/curvas_detalle_normal.png",
+      "sha256": "377ffe777f94f12d26a4b3c4503973c952a12452690c1dedd461db25f6fdc81a",
+      "bytes": 680829
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/curves_folds.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/curves_folds.png",
+      "sha256": "7982f8f12ecdd16550acc8d63870dfc4c90adf60e24d060b0d5e59b1b93b084f",
+      "bytes": 191034
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/curves_folds_zoom.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/curves_folds_zoom.png",
+      "sha256": "743e9ea4ea57e45b37fd9c30b86a9e1a3b035d0e87a92d272c6543e63fef7e6d",
+      "bytes": 70350
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/auc_epocas_elegidas.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/auc_epocas_elegidas.png",
+      "sha256": "20fe4a113b368fe79778aef05b24f55083e9c8f8548d7f26defe2c4d28b60efe",
+      "bytes": 58459
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/audit.json",
+      "sha256": "05de930467dd2bc7edb98bd40e09982a9f7b75d6cb9cc25185c588d3c7d47937",
+      "bytes": 1925
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/curvas_aprendizaje_folds.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/curvas_aprendizaje_folds.png",
+      "sha256": "1d1f32c2a3db6fd6c13cf49783ee62dc1c34fd980c67924bcc4985d71f3e32bc",
+      "bytes": 673220
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/curvas_test.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/curvas_test.png",
+      "sha256": "7687dda04659848359b6ed3045d689aa8e11329855a8ef6e6bca58da6f33f8da",
+      "bytes": 301248
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/figures_audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/figures_audit.json",
+      "sha256": "e72789c73fb904895ec34bbe0e8865faec0d56ecfb71ba791594db58ad199f5c",
+      "bytes": 1538
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/matriz_confusion.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/matriz_confusion.png",
+      "sha256": "fb0c48e346b2abee23ea58c79651f5266a40dbc49640d4a09b3206abf62ccbfb",
+      "bytes": 187105
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/metrics.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/metrics.json",
+      "sha256": "f71ef2d9f00c20b16d788a686763d898806b74b670ddefd848fdac236a945498",
+      "bytes": 17582
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/model_manifest.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/model_manifest.json",
+      "sha256": "bdb26ff714df41a4dc5c6e3e37c198c2172d1162231cd936a0e199b21d2216f3",
+      "bytes": 3520
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/patient_scores.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/final_test/patient_scores.csv",
+      "sha256": "a67dd8af6ae8935688b07aaffa40c8d7082229824070171388076965ec408212",
+      "bytes": 8218
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/checkpoints/best.pt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/checkpoints/best.pt",
+      "sha256": "c52f7873e90aa4d6ab715b04e44f921bf6464ef6b1e20e918dbd64db90d5a88c",
+      "bytes": 1501649
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/metrics.csv",
+      "sha256": "dfa4b473738168c18420554c5c39b57e25966746b9275d3fd127b207def99459",
+      "bytes": 27309
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/model.txt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/model.txt",
+      "sha256": "60a8a78fd18726d22e94c7ae0fd7fc3be404cc431b3903bbe748415ffce35196",
+      "bytes": 1326
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/normalization.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/normalization.json",
+      "sha256": "cf9be8e8f0b753c3e1d47a16b4243a186500a4ba6de8749a2e38dabe9521c433",
+      "bytes": 218
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/partition.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/partition.json",
+      "sha256": "f2fcf829cf6a7a2befb82654a4e7fb2c246c75fb7b5835a4c67ef36d0e56dde5",
+      "bytes": 23603
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_001.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_001.json",
+      "sha256": "bafda4f945b84143adba5afeb65d58ce6a8c6c41d90d1e2fc8229e7a3bb2591b",
+      "bytes": 22820
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_002.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_002.json",
+      "sha256": "68a60d6f7084785171e4aee81b1667e141f0664e1821c72733ffc1a42b9fc90d",
+      "bytes": 22637
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_003.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_003.json",
+      "sha256": "2d731aa340c9a1016832b5fbc24bd4a148f04cf165d46aad40517ff003ac6bd2",
+      "bytes": 21979
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_004.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_004.json",
+      "sha256": "bc8a940c8f563465740b1aa928ef8cf6d35c7a9a06d176c4d472c1aa5492599e",
+      "bytes": 22321
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_005.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_005.json",
+      "sha256": "d8d8d62b1289a5b85371168c7f6f86e4ab485e0e2a4f949e1a3fb9d1c7832fa5",
+      "bytes": 23541
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_006.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_006.json",
+      "sha256": "211ac1dbe91d6a720b29da60c81d1950fa91af9593044088bb723cba83b5ee4c",
+      "bytes": 22417
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_007.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_007.json",
+      "sha256": "ce034b8e1265a6397de0c323cc414de7e879cbc822c2602319895480f53faed7",
+      "bytes": 23451
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_008.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_008.json",
+      "sha256": "c116b43475a433fd65ea7b1c08c59b9a3e3c647b8c6625472a95801210ae773a",
+      "bytes": 22391
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_009.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_009.json",
+      "sha256": "bed5d75f6944d79de59db3757e32abbdf3417557fb68f069e475376ad9083313",
+      "bytes": 21631
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_010.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_010.json",
+      "sha256": "7764207aeb2e0e725a5d6681357d4d44e31b5af8ea093283c9cd5c51eb6b62f2",
+      "bytes": 22830
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_011.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_011.json",
+      "sha256": "c96c88c9e4ece6636a026eb55b5c37b59e5ce4a368d99cdcbb4924550cec6170",
+      "bytes": 20939
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_012.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_012.json",
+      "sha256": "5c29550ef5b594e974fa0a2a025a53bc5f9d74fb3dad5df91a87a61fb588a385",
+      "bytes": 22647
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_013.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_013.json",
+      "sha256": "c3323a87e4304fbbb22d4c7d909da6168a8573575844eb035c81e270272a14ac",
+      "bytes": 21647
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_014.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_014.json",
+      "sha256": "1bd536e2e139e204e1bfb10880c0a23289b9cbedbb89461d7f2c7b4db1162b71",
+      "bytes": 21499
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_015.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_015.json",
+      "sha256": "b4847ad659d5057ebcb3444c56402f9739adab746e88b4c2b1cb80cd53d1a915",
+      "bytes": 23121
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_016.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_016.json",
+      "sha256": "6bf1fbb815434689d78a3bcb59427dfca75e4f5d059dad1cf00104cc7d3fed29",
+      "bytes": 20903
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_017.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_017.json",
+      "sha256": "eb8acc12a3c4499d5556f933fd0641a3d4bd67818c80848ca1932e8fe7e724bf",
+      "bytes": 21899
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_018.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_018.json",
+      "sha256": "eace4af70f7f64cb35d0fc7c743c00db0fe271fff377f21aa14b422d41c57bdd",
+      "bytes": 22279
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_019.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_019.json",
+      "sha256": "f39d5009b276c029c7559ea8850cfe3730f925ec3ad245b27cc205653ef3d699",
+      "bytes": 21811
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_020.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_020.json",
+      "sha256": "3c8bfdc559e5f972e418325e558a9a5a8c892048beaa0a3a16eab13d3688e88f",
+      "bytes": 22983
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_021.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_021.json",
+      "sha256": "ac3369e2ffe92b30713352212dc63f835e1fd8d94249f15db4c6f4d3111d1970",
+      "bytes": 22533
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_022.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_022.json",
+      "sha256": "2afdcbd9ced1a01f1628b747fb23b487a86d4379bb467d82fd64bef672a8efc0",
+      "bytes": 21813
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_023.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_023.json",
+      "sha256": "c18c139657b5ee5da558fed44c3407d2c3712ace648dff79bb8a7dc3914a3d8f",
+      "bytes": 20709
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_024.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_024.json",
+      "sha256": "d4505c7bf3a5a87b5c265be2bfd78008a55d3a3930955ecab16f80fddabbb09a",
+      "bytes": 22345
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_025.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_025.json",
+      "sha256": "ed2ea2cad8be563c066ea0d184bd9376d78a492b64ec2a31022e8c46c3881c11",
+      "bytes": 21643
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_026.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_026.json",
+      "sha256": "5c62566ee0bc596a19cc240bf99e09a16b4aae581a30173ddcb1664b60b7684d",
+      "bytes": 21295
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_027.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_027.json",
+      "sha256": "abc31c598e262ad57ff144f29f19ef4aac9a81ec946e26fea0c3001320753143",
+      "bytes": 20477
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_028.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_028.json",
+      "sha256": "04758f1e442c98bee65fe229daf3baa2b19ea0348841cba5fb6de8510378378f",
+      "bytes": 22157
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_029.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_029.json",
+      "sha256": "138ef9da6b91a600981d564b1aaa6f6c839a42db92fa3f896b9ec42a41eab074",
+      "bytes": 21396
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_030.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_030.json",
+      "sha256": "0b0b98072029b7c5aa5c6116da8985bd16bf7835f0897e9e9d869245b9f6c88e",
+      "bytes": 21685
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_031.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_031.json",
+      "sha256": "ebef1df8a2f45744d9716620ad51eeecc4fb28ee67765d312fea40c5ee4e95a5",
+      "bytes": 20671
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_032.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_032.json",
+      "sha256": "46f7e8e4276f112250efd6ec7f7c92b5a72256da8e11235d40a2d1f2bdfd3250",
+      "bytes": 22265
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_033.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_033.json",
+      "sha256": "61c526673d16b07c03be35a3ce457a01a245cfd2425ac0ddba1b31b05df689de",
+      "bytes": 21515
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_034.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_034.json",
+      "sha256": "3e7b310618f627834372aac9376b09f01d28dea62b9f608c06271d5068abbc54",
+      "bytes": 21695
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_035.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_035.json",
+      "sha256": "24be40ed086b4100d6782c5c5ab0bd8a76f4feb2d811c5984bb0d2133049b868",
+      "bytes": 21657
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_036.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_036.json",
+      "sha256": "68881f12258267ab30c46831026d50a2cb44a1bcfccb91765dda0d693a647409",
+      "bytes": 22091
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_037.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_037.json",
+      "sha256": "8caf036c9f20f6a34394b4781f6c09e111ae37a6e532ed59fc7a0402e9909375",
+      "bytes": 20931
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_038.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_038.json",
+      "sha256": "92d7461648df3b88e2b70a2044966c7ea4c76bb88327b359200e41b8f2d61016",
+      "bytes": 21937
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_039.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_039.json",
+      "sha256": "8f88ca75da2336310b84f5152208593e2620c549c303e448cabed2bff9f4a3ec",
+      "bytes": 21467
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_040.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_040.json",
+      "sha256": "19bb8f16c78117cc8db6870eb271b11f8180050cc6086fb7f995984909bd83a3",
+      "bytes": 19977
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_041.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_041.json",
+      "sha256": "cb787cdc47d5203cc48903f2a1948d184fb09db43028ec923bc7fe216d42aecd",
+      "bytes": 21669
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_042.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_042.json",
+      "sha256": "fcc014eccf8c63e16a7c4edbb76c421a4a731b077d270dba7c89e44473294c87",
+      "bytes": 22189
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_043.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_043.json",
+      "sha256": "683120b92b4d9bff3c5e30f30f2f46c367bb139b2f793e079dc55d28be6f13d3",
+      "bytes": 19729
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_044.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_044.json",
+      "sha256": "9c7df647d5903014bdd340f02e5da5f598c650c0cd1621ef0ea42799ca5b8b40",
+      "bytes": 19601
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_045.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/roc/epoch_045.json",
+      "sha256": "3e94d071741fb5d5f4282b6900cb8f16b342600603e10cab49d7df3106097145",
+      "bytes": 20271
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/checkpoints/best.pt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/checkpoints/best.pt",
+      "sha256": "f8c1fa4603b2fc8a33843a4365f9abccb27a3cfb4f2b7142415a49faa83e13b3",
+      "bytes": 1520209
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/metrics.csv",
+      "sha256": "2cd4b8c6755f576e7f97ec681e89a4a6fedb78c9c3bd9635f9e3c97d7545feb1",
+      "bytes": 30902
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/model.txt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/model.txt",
+      "sha256": "60a8a78fd18726d22e94c7ae0fd7fc3be404cc431b3903bbe748415ffce35196",
+      "bytes": 1326
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/normalization.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/normalization.json",
+      "sha256": "c878872ee43373395b4c8fa2e119c75859371f65554770b39d71860f83af3723",
+      "bytes": 220
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/partition.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/partition.json",
+      "sha256": "b17897067a5018f0d26a372f26acccd04814a3492256c934bbe1947791cfefd5",
+      "bytes": 23605
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_001.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_001.json",
+      "sha256": "662b514248eb9ac7240b797f40d40c5e1271c5598ee4f24dec8de6adc78cc526",
+      "bytes": 24122
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_002.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_002.json",
+      "sha256": "1c524c8990f4b2da5ccef20acddf2599b86ff71953f60ad70708138b8a765c16",
+      "bytes": 24095
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_003.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_003.json",
+      "sha256": "ec47a920f9acd6f5e095575aaba9a34ce2103cdfc00aff24f9794a0d35c76366",
+      "bytes": 24800
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_004.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_004.json",
+      "sha256": "ff3c7a7e7519f0020c7c3dfe3e67340c5a8a5749dd9efd72c50bb9068ddebbf6",
+      "bytes": 22892
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_005.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_005.json",
+      "sha256": "d7b62e96ca370c21ef73e7f937c58765fabb86a287531f9720dea7f5544cf717",
+      "bytes": 24301
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_006.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_006.json",
+      "sha256": "76c4f348644c2e23b84a42fd615a2e01bb05d82d434bbe503f0cfd63d3cd2bb8",
+      "bytes": 22637
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_007.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_007.json",
+      "sha256": "b11aadcb621a715c865d540d0a91f7c712e9db4e2cbe7355738a68be42f454b3",
+      "bytes": 23019
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_008.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_008.json",
+      "sha256": "31ecc9872aab22df92c677774af5fa67871ee809ef88fb8869798bc1ef9e4fc4",
+      "bytes": 23917
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_009.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_009.json",
+      "sha256": "241213ccf15f2ec705542acf12afcf76a9bfb5f039659b6fd19bd3e7199153ec",
+      "bytes": 23653
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_010.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_010.json",
+      "sha256": "bb1be2bacbeae704245ce6cc893fd2981182728d9dd44e312222cfb81a869526",
+      "bytes": 22979
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_011.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_011.json",
+      "sha256": "63d6b08204d517f709d41189c0d2c426bd6aa20e3054215971a00124c5b6604d",
+      "bytes": 22778
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_012.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_012.json",
+      "sha256": "86785ce9463a0a38b702070dae131d0cb721b1d3f1587c5708556225a1a3be03",
+      "bytes": 23496
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_013.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_013.json",
+      "sha256": "77b157e4ac1c3115cc1254f2277ef0df429969db2a922b439f59790b0a2d4232",
+      "bytes": 23502
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_014.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_014.json",
+      "sha256": "bee2bad3e848eb1660b7f76693c959a111859dfc8b79727423e254e44f628c6d",
+      "bytes": 22702
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_015.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_015.json",
+      "sha256": "39b72fa545805775c119ff72639940df2541e286671374cd5b73fc07477631a5",
+      "bytes": 23304
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_016.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_016.json",
+      "sha256": "c216303e8f1739769d052d8f5629d2726e85293a821108cda714f21592afada6",
+      "bytes": 23322
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_017.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_017.json",
+      "sha256": "f203750c0b5c96891f86b571a4569e50d4e713a0e7ffd68bd4f2384909573ace",
+      "bytes": 23262
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_018.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_018.json",
+      "sha256": "d37444e618e13c0d24db9b9c813d6b50ff4e3108bfe2196702022590b342fc83",
+      "bytes": 21786
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_019.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_019.json",
+      "sha256": "f09debd569436259a5e4c1e513990b570ac760283e69b4036768cec4e351ce84",
+      "bytes": 22644
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_020.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_020.json",
+      "sha256": "941411ac08f2860ac42fa35a2733b1c1bdd0687373311cd6923b6ae78964341a",
+      "bytes": 23528
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_021.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_021.json",
+      "sha256": "5203ae83ba2d570aec7d2b42961064128348b19d08cd1c00eeb4d1cc445405cf",
+      "bytes": 24354
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_022.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_022.json",
+      "sha256": "77d271cfb557ae3cbd0c84f9f2b77f80e05ce1d887c3c0b4cc6ee42aaac74c42",
+      "bytes": 22978
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_023.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_023.json",
+      "sha256": "f73d71580886f2fe5ed2a6957ef91c5ac4ebd122a8176a5abeb73afef8d260a5",
+      "bytes": 24512
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_024.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_024.json",
+      "sha256": "ccb92404ebb2d7fb168a2054a1c5ee07ffe866785cd8d608218307fd066dc2e6",
+      "bytes": 23320
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_025.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_025.json",
+      "sha256": "d1319b76f026fd802850500322fb4e8e3f877391eaec2ad2f5ca1b0a6805b912",
+      "bytes": 21924
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_026.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_026.json",
+      "sha256": "63d2afa08c528e61ddb76f8764650cbed7289caf01e948f2f5df5f475e38651c",
+      "bytes": 23128
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_027.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_027.json",
+      "sha256": "b67be8ac5668a5ba686d9f8e69b83b5283b02ecfa02cca2888bbfab840bea4f8",
+      "bytes": 22998
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_028.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_028.json",
+      "sha256": "415b1e408fe980a69f92a9f5feb9f58dc01bf6513ecb9721c6266d26201c9c89",
+      "bytes": 23152
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_029.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_029.json",
+      "sha256": "04479b986cccfae32525417319fcb85e6964bb460b42a942a74aa712a0a388b5",
+      "bytes": 22600
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_030.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_030.json",
+      "sha256": "c59c34560ce930c6c79c099100356e81118e4594332959379a44258920c064ff",
+      "bytes": 21944
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_031.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_031.json",
+      "sha256": "39d1c32cb7fff71e2f16db07b1cf902039296a65f777251a49fdd16ec50fbdbd",
+      "bytes": 21536
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_032.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_032.json",
+      "sha256": "d4dbf6aae9c4b7c287e5e4c3e9aec1d30f95d8a34c7946c0910c9f4c7b34f9a6",
+      "bytes": 22178
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_033.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_033.json",
+      "sha256": "56b4c2c75b13bf07620062339e5047c99d7bb89ea9a6e5c49aa413f83eb7b4aa",
+      "bytes": 22226
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_034.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_034.json",
+      "sha256": "bf793bca9fdc0bac424f77a84f6085b2dfd7a88be30e0778583aef3336fc9e07",
+      "bytes": 22394
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_035.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_035.json",
+      "sha256": "53e79a0a14333ac6bb03264ed818f2046bccd20118b45aebc59f36e25379667c",
+      "bytes": 20670
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_036.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_036.json",
+      "sha256": "f807323859d050740d0cf6903284d77947903523162455678eba15ac4cf88916",
+      "bytes": 22656
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_037.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_037.json",
+      "sha256": "fa852d368d1f485250b04e83c69754932119e8e08bc52ba984417bad5a382ca9",
+      "bytes": 22318
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_038.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_038.json",
+      "sha256": "27f97888da4f3fa6c6bc847f39f1954bc10e874a26945902847dd02dc107b2f4",
+      "bytes": 21452
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_039.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_039.json",
+      "sha256": "fcc55ff8e9d0553ee723517ce54074e5ca216745f08c6a32e262af982e822813",
+      "bytes": 21756
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_040.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_040.json",
+      "sha256": "d32fbb1fc54e1fcb80be28b14f309e2d153b3df01c5de0b9240900bc2573b864",
+      "bytes": 22172
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_041.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_041.json",
+      "sha256": "fbe8434fe9c82aa654b347652fb270250db2052e6c8f3bd7ae4d68f6dfe1762f",
+      "bytes": 22030
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_042.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_042.json",
+      "sha256": "17290c8101eeeb57c05c301df3ebd5b0d6e89b61dbd54a59440595bf2399d780",
+      "bytes": 22342
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_043.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_043.json",
+      "sha256": "692366348f7194af31fcfd2b7eb86b38c00ee46b79a30799467e7e5096855255",
+      "bytes": 20466
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_044.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_044.json",
+      "sha256": "20978bfd8097c86bd445b4c6768b6141e042389cd238cea33841e43bdb72ac5c",
+      "bytes": 21646
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_045.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_045.json",
+      "sha256": "7edf8b48179f518027ca12740c9e5a439fb66559813cf2d5f78c5ed53c3064dd",
+      "bytes": 21336
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_046.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_046.json",
+      "sha256": "36c8eb3dab8e79218e61292fabf1774218fc851d1fdb981f33f541a0822f0317",
+      "bytes": 21648
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_047.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_047.json",
+      "sha256": "90694693d643a8112232be1e09017a4250a3993c02aff6e6a6ef86b69b244670",
+      "bytes": 22614
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_048.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_048.json",
+      "sha256": "c80fa548b2229d9c7e07022a1812c88cd7a2128f91bd03acf0116df0f7869cd2",
+      "bytes": 21378
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_049.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_049.json",
+      "sha256": "f6f6dce04e774f8d792e222b460f03975dc6ff0d3ab3b03c1f9897c164e4f079",
+      "bytes": 20816
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_050.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/roc/epoch_050.json",
+      "sha256": "49e8148ebb8a3c0edb11257eeb4e574726206973d7e2c737719fe17e666e4189",
+      "bytes": 21720
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/checkpoints/best.pt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/checkpoints/best.pt",
+      "sha256": "a1026e1beb86a5cea6d9966defe0f9d2bd762205f2949a268827990095eb079c",
+      "bytes": 1490897
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/metrics.csv",
+      "sha256": "33dbda4e46fa3da3fe51ee8c98c11d068dd0ee88e9840a180f49334e3ad28b5f",
+      "bytes": 21821
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/model.txt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/model.txt",
+      "sha256": "60a8a78fd18726d22e94c7ae0fd7fc3be404cc431b3903bbe748415ffce35196",
+      "bytes": 1326
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/normalization.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/normalization.json",
+      "sha256": "a5f1334a8549181690bd0f2c03ee9973f33a006fe4bd69bb819f8df462bc9b5b",
+      "bytes": 218
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/partition.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/partition.json",
+      "sha256": "0f90a9b7da0c782f3565288e63cc4cb4f0933a2f983e360495b08f99e2fb39ce",
+      "bytes": 23603
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_001.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_001.json",
+      "sha256": "67a8059f4008a5f9546b4be8129064fe674cf119351b0f7c24f0fe50eac61f96",
+      "bytes": 24074
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_002.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_002.json",
+      "sha256": "59dbacd57ebe3ba813b35498c2a22190a185853ec758c3d2b5d0e3100de68196",
+      "bytes": 24972
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_003.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_003.json",
+      "sha256": "ac85ea631fe3bf4735c713965cd87882a81fa5aa529db50195761baa55151a0d",
+      "bytes": 23380
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_004.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_004.json",
+      "sha256": "b104c8006705b6a05920a4a7995139733718da09b5f14e7684e4c4597d468779",
+      "bytes": 24714
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_005.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_005.json",
+      "sha256": "62206fe9e32d8787e2f201f73a18810d1fada6d349123506d7eb3a9af595d68e",
+      "bytes": 22496
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_006.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_006.json",
+      "sha256": "d0b7aeb6979b0aa2b7bd81980cf9ff1ca5a0eb40b9c5b992b6b1bdf5b0891d34",
+      "bytes": 23038
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_007.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_007.json",
+      "sha256": "a21f8714a0fa2f965319fdfa5e0ee0c024ea0bdbf1669dc829ec965e72112c53",
+      "bytes": 23258
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_008.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_008.json",
+      "sha256": "cf585ec13b87b965486b8ef7dd425c9bfee0eb7af64d6e5735a8ed74f36baca9",
+      "bytes": 23230
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_009.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_009.json",
+      "sha256": "b75e86fcea8348435b33f853ad77ef1d316570999cdd86d1403c554df91e4392",
+      "bytes": 24114
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_010.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_010.json",
+      "sha256": "8bde53d5da6765eb39481d55a17399bfa23f4d8088020712adcb32eb42fb8494",
+      "bytes": 23754
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_011.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_011.json",
+      "sha256": "607c21315fc395604edbb21bcd74d5555973caa0fab06ceefbf53f040617399a",
+      "bytes": 23084
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_012.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_012.json",
+      "sha256": "7bc2f06db32a4fa8907cc56a1ad29d02ecfda886b4bebf1d83c30de6deaadc13",
+      "bytes": 22538
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_013.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_013.json",
+      "sha256": "64c46941cef7748fa9a7b5d16119b9f5adf320405daf57d0fb4d0205070e9f41",
+      "bytes": 24096
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_014.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_014.json",
+      "sha256": "954220a540cafc3f559dfaa30e067f37d304aeac80c62dc1bbe7a2ea537fe3bc",
+      "bytes": 22412
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_015.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_015.json",
+      "sha256": "06969f15a7f46035ba8dec82ab91998134ceed193273c568fd164d9878bc0298",
+      "bytes": 23370
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_016.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_016.json",
+      "sha256": "e550bb1e7cd6dcf3ead77d4c24c33b0efc83280fcc52c92d8bbd623589f588ff",
+      "bytes": 23906
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_017.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_017.json",
+      "sha256": "52c3ea63e9914254587429fcb96d4a91608eab6cdf5dba097e8bccc29eeffcb9",
+      "bytes": 22948
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_018.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_018.json",
+      "sha256": "3944701e74ee4e4e96f916c751f6c07057ca45832c42282152bf1782ab9021fd",
+      "bytes": 23562
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_019.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_019.json",
+      "sha256": "4bb821b228b4fcf47ed56bddb5068ce02ab47190599fc9581ccc6ac4065e7930",
+      "bytes": 22972
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_020.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_020.json",
+      "sha256": "87c05d79f307ed4515846341617cacdf428b52d65d905f3ce89fdaff700cc664",
+      "bytes": 22170
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_021.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_021.json",
+      "sha256": "30414f642c39a126b4318313e13baf821a2027f591fe5acbee973c603d3f20da",
+      "bytes": 22688
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_022.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_022.json",
+      "sha256": "ebfb038ff63696401c906c943fac1612456bebd7f3f05a3b757818bd10a33f99",
+      "bytes": 22378
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_023.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_023.json",
+      "sha256": "a2dad68e40471e06ad799b8752af8b3ee3a1ae9daf30192c832f1c338d453e34",
+      "bytes": 23404
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_024.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_024.json",
+      "sha256": "4c7abf577cafd8501fbc685ac7fb69619743e343ddac8fcfe22e78b13fe8da98",
+      "bytes": 22698
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_025.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_025.json",
+      "sha256": "bc0670dcf140f0ff2a501e04a50a32495f02cbfbb8400d2b7a354cf4559188ab",
+      "bytes": 21823
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_026.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_026.json",
+      "sha256": "46e0ded0c1abc8bb16a6babd19eb8351d2f339071bdcdfbf31faea3759c8cea8",
+      "bytes": 22370
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_027.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_027.json",
+      "sha256": "2a0b97422a19f6c1f2fdfc72b91709ca2d1440474aa8db96cf4f55819636e750",
+      "bytes": 20810
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_028.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_028.json",
+      "sha256": "8e35237d8fd835b185729f2344c7664d1370d53ce927eacfb0afbf6462898c7d",
+      "bytes": 21932
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_029.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_029.json",
+      "sha256": "a4bb838237ac17d4ee03c58aeb63309e810f568f0a0a4f258d21215e91e0c3ca",
+      "bytes": 21134
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_030.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_030.json",
+      "sha256": "a7e01232b077e105399373c9818f9d929c5daae4d46f96ea7905c9a191afc00e",
+      "bytes": 22070
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_031.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_031.json",
+      "sha256": "e6c94681809b8614fc43bee26f591599f9b54cae252ee0517e6b7d6c5439d748",
+      "bytes": 21774
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_032.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_032.json",
+      "sha256": "7f56aeb93627cc2ee513d5daf77cebc3bd1dfc271de6604e944a6f943e14b49f",
+      "bytes": 20852
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_033.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_033.json",
+      "sha256": "f76d71fc9ef60b8bd129b30cd05326b0540fd485e5475e7f484dad0cc74d2dcb",
+      "bytes": 20294
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_034.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_034.json",
+      "sha256": "86b6a181cc5501f62f132e9a75175c964854f61d85295a2836156fd331d2a690",
+      "bytes": 21710
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_035.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/roc/epoch_035.json",
+      "sha256": "8d7812d0704a3ffecd8e7f1288b225a41444836b89025aa11c803992ada9b547",
+      "bytes": 21084
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/checkpoints/best.pt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/checkpoints/best.pt",
+      "sha256": "fbdbe104521acf5e5f334c7722b980b227013608c7bd3a7afe64b74b8ffef69a",
+      "bytes": 1504657
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/metrics.csv",
+      "sha256": "5fedb26ab9568889e4c17a4042270e9b988ba5e0ff83750423741ba0c19f3a87",
+      "bytes": 29351
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/model.txt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/model.txt",
+      "sha256": "60a8a78fd18726d22e94c7ae0fd7fc3be404cc431b3903bbe748415ffce35196",
+      "bytes": 1326
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/normalization.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/normalization.json",
+      "sha256": "c793a8cd01c4ae1a648c79f313133c6b5542a5c036a9e5d6d426c1e148f884bd",
+      "bytes": 220
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/partition.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/partition.json",
+      "sha256": "0b7b0bc0c57d3f1b7272a381a4bab40a260097a71707d1e49869b038e3912efa",
+      "bytes": 23605
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_001.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_001.json",
+      "sha256": "d301ed719ff52d23168f8262258605832ac799c85efca90bb8f42dd851fab950",
+      "bytes": 22936
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_002.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_002.json",
+      "sha256": "77bbc6f6d29c00370cc2d116e873e63080bc2c10117d7f1edd256f74ca9d276c",
+      "bytes": 22951
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_003.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_003.json",
+      "sha256": "9fd8fba324351f182a9f67fc88ffed5c89b5aae20f4be996e11bc0662895fc43",
+      "bytes": 23277
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_004.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_004.json",
+      "sha256": "16c3e2f33d0361b2fb602508f104d220736047fb0ab0d3c7686a8338df65b074",
+      "bytes": 23509
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_005.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_005.json",
+      "sha256": "0bd8f7ad8c969cf5fa742a35ad51d0cf82a24d6cd208330e2c852e7ef8b34bec",
+      "bytes": 21951
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_006.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_006.json",
+      "sha256": "55f682cbbc19d73d2c8633686fc314b2032b4b598eafc30eb2cc6e85b3deca72",
+      "bytes": 22175
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_007.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_007.json",
+      "sha256": "af280ecf1ec6badd7aed54f590bbf6aacf9db74679bbbe079cab8c7a78e94834",
+      "bytes": 23139
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_008.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_008.json",
+      "sha256": "0b8c907ecb5fcaa7c572c3a8417175135b76ee0607a73e13e71208d36c6a358d",
+      "bytes": 22825
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_009.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_009.json",
+      "sha256": "873a34b3095851119781c1893ad4bfd71c9ac1e17258ec7157d393f5cc84287e",
+      "bytes": 22927
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_010.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_010.json",
+      "sha256": "fc950b762323b17afa3097e7a840c8d2b38765d2c2d7a1860ae27b9691c8e665",
+      "bytes": 22772
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_011.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_011.json",
+      "sha256": "e891599c243fc1a3a15f9cab0dc5a5cd90fcd70c3b5a7003770eac25cad2ac61",
+      "bytes": 22173
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_012.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_012.json",
+      "sha256": "4c98fa75929aa563d49af7a818cf39b4d7c307fb9d9f9831c7d1e0f874e86cea",
+      "bytes": 23041
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_013.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_013.json",
+      "sha256": "1090fcc0327e9af7dd22b95776abd0b62e084c3134ca66bd7c2ce976a9bb23e5",
+      "bytes": 21409
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_014.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_014.json",
+      "sha256": "d9cf3320dd7248c540d947af1b310bf9ba94373142c86f243577742305c26196",
+      "bytes": 23285
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_015.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_015.json",
+      "sha256": "0be0428e1d19f2b7d5f1f1e97baaa8beccf598346f838928aaaa265604108a40",
+      "bytes": 22110
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_016.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_016.json",
+      "sha256": "f208a08a67787502ea53ae956e32d3458c583feaf078a3b4ce748b6ec66f7ab5",
+      "bytes": 22016
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_017.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_017.json",
+      "sha256": "a8b6b3135b582437b27f1f0161c69536de575de4374ece27c59846cb15f87e16",
+      "bytes": 22001
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_018.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_018.json",
+      "sha256": "768f3cda96ea9622ceb8e58004d49da1bcb3b692391dbb596937e140e49a869d",
+      "bytes": 23082
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_019.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_019.json",
+      "sha256": "d13fdd548eccce35c10c09e7a4b740fba038e0d48574f267344159249ce1fda5",
+      "bytes": 21840
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_020.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_020.json",
+      "sha256": "6bc90fda6d1e2d3631e34d83d673896082db8a7df533ec74f94416fb3b4bcb74",
+      "bytes": 21046
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_021.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_021.json",
+      "sha256": "2f811e6f0249da323b2aaf19685a02ae3e8b7813c7fbfd3eb7fae1449ea39c7f",
+      "bytes": 20736
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_022.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_022.json",
+      "sha256": "ab5db741e2442d0e8664c572667f4cae979dfda5826b72f16512b73263308361",
+      "bytes": 23713
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_023.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_023.json",
+      "sha256": "1f706d403e9e007f6129600a5566674c2eaeb43820012ff65d95c438c34f6255",
+      "bytes": 21561
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_024.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_024.json",
+      "sha256": "1acd3e304e682273259e92b3e335548eaa4ef9f40967fe9be8fea7bf1ebdeb5e",
+      "bytes": 21933
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_025.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_025.json",
+      "sha256": "cc8eba293211694261875102f1b6e38e7be17ed54ba6725b65826272e2604ca1",
+      "bytes": 20713
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_026.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_026.json",
+      "sha256": "52ebabd44d4285a33f00a4f64162693214da3eaac04b4c74cbca0110799bd026",
+      "bytes": 20190
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_027.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_027.json",
+      "sha256": "eeb72f0b2dab5f051c0cba83ed1f2923e9a3d34a4cf92e62a51be8040f6175ad",
+      "bytes": 20209
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_028.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_028.json",
+      "sha256": "196ae8e241c580e99b63b3bdc78ba2d060587a551cb17c4633a8ffdeac81a902",
+      "bytes": 21563
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_029.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_029.json",
+      "sha256": "e64bd65d40a346f1d3e08660eee6a1dae811ef3582f0219600e1d371d00f4fc6",
+      "bytes": 21220
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_030.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_030.json",
+      "sha256": "e1ac0e0930aec8d3d4cf01b8aa107bf24657103fb0011827cc0265b14e025ece",
+      "bytes": 20639
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_031.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_031.json",
+      "sha256": "95746bf36036d3f4732b8c472d3ea381be3e506e663620c28956f59e762d2c43",
+      "bytes": 20020
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_032.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_032.json",
+      "sha256": "6db468104ec2fce2c2c949130e0ba74c48679540a491a6399319bb1261ebd45f",
+      "bytes": 19647
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_033.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_033.json",
+      "sha256": "58913471abc78ec0cfc32c23c9ba53b5cd6dcbbf1ac1b64b87155f6438e5498e",
+      "bytes": 21584
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_034.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_034.json",
+      "sha256": "4e295fd0b275de8dbdb46f1fde13aaa9a9ba6d225e6c281e5a73500431e0c5fa",
+      "bytes": 21674
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_035.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_035.json",
+      "sha256": "72d3f69ef5bdb2ff345c15fc1f94467d36b0ffaa4e9697c9fe696bd7dcfd9e65",
+      "bytes": 21018
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_036.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_036.json",
+      "sha256": "2a046acc3e384055e88ce38e79fbc4f1415166b8d03a9d2d08a8b305f8fb08cb",
+      "bytes": 21060
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_037.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_037.json",
+      "sha256": "55113d5f677a3921b10600a9af83436748cb300d9e77b58d9a70558f02ed944f",
+      "bytes": 20132
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_038.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_038.json",
+      "sha256": "a8d19d14fe530cccc0848e3b949e7fc1a74f890ba9cba8523622d27c0753ec2c",
+      "bytes": 18740
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_039.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_039.json",
+      "sha256": "83270813bd8e1aeca4efa4bcb69f92c7e49b9315b22646f14fc107ecb6195cc5",
+      "bytes": 20818
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_040.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_040.json",
+      "sha256": "b86755c5c3aee054a82ee0c1c37802f723dc668154616420e3e1216aac9f0f2f",
+      "bytes": 19224
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_041.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_041.json",
+      "sha256": "d95ed13604bf312a3bdc1bb326cecca2f4991070e07cf7d703f672a282e98c76",
+      "bytes": 19812
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_042.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_042.json",
+      "sha256": "a0d458daf0f35779ab81c2bae8fa325424b4478d3786657a75609188cc875a0b",
+      "bytes": 18660
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_043.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_043.json",
+      "sha256": "b191111846ea5b6b51ad8001e17da114f7c5c449a9176c9ea5951d8eea40b31c",
+      "bytes": 18874
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_044.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_044.json",
+      "sha256": "d766b41c59b9b43d788da148f1fd54f8ed5cc07939958529f466c82aee7dd8d8",
+      "bytes": 19262
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_045.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_045.json",
+      "sha256": "1eceac8631798ccd70f9c9e795329d2f75a087cef29b74c61ff231b2e1bc7253",
+      "bytes": 19816
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_046.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_046.json",
+      "sha256": "696909b2cc289669078953d60057f0c29d2af0b2c82caa92b53e3956e091ad01",
+      "bytes": 18613
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_047.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_047.json",
+      "sha256": "d24289d928a6c233091e76e20319d703ceccdd143ac2bea265769b85a5f6e587",
+      "bytes": 17810
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_048.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/roc/epoch_048.json",
+      "sha256": "8bc26b03ede45f7f0fa5dac18557460aa01ac3ae5e3aa6d0c1e69e47a3f36822",
+      "bytes": 17321
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/checkpoints/best.pt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/checkpoints/best.pt",
+      "sha256": "aecdf131860254b6318edcb3f7ddbc1189dc16a4fe9e76837eab6900e53a8ead",
+      "bytes": 1495505
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/metrics.csv",
+      "sha256": "0de7678cbb6a9d180746e33098e497442c402ad7beb6e36a927a35ae1831bf7f",
+      "bytes": 24241
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/model.txt",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/model.txt",
+      "sha256": "60a8a78fd18726d22e94c7ae0fd7fc3be404cc431b3903bbe748415ffce35196",
+      "bytes": 1326
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/normalization.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/normalization.json",
+      "sha256": "e08d1a8697beffd05616f654659db907a944c5d80db9d39b58c3d4daee5e21b2",
+      "bytes": 221
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/partition.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/partition.json",
+      "sha256": "57652c04c68360b9312a128322fc54e3bae99d1b60842b6d449991d11eec071a",
+      "bytes": 23606
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_001.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_001.json",
+      "sha256": "955e5469396561e14736550dc9fd21c1f2c93df084069ad075853b77e55d3ab8",
+      "bytes": 23350
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_002.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_002.json",
+      "sha256": "94e7b3c29921e04612e8e4707c4c81c8b30b3ecc3767f6e3b7c9a76a5487963f",
+      "bytes": 24122
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_003.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_003.json",
+      "sha256": "053898c0daf1a4710ed5047fc8d613d3c182ee6870c95598a8dc21041a4e0863",
+      "bytes": 23944
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_004.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_004.json",
+      "sha256": "f97fdcf18d57ed69199f4874bb64ffbd3e5fe6e23861d9680104625d02ea5d86",
+      "bytes": 24245
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_005.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_005.json",
+      "sha256": "ab68f03af8109678b5394b631590ad91a7ee16504a46ecacdb0e0b716ce0429f",
+      "bytes": 23851
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_006.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_006.json",
+      "sha256": "955666ea27a2aa535d4a0cd27805f8610fe14c419df83c12a9424bb8bc55b870",
+      "bytes": 24944
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_007.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_007.json",
+      "sha256": "e8ce33d25554ee3e71ef5f4d180066f0a928d4a6daec975dcfc061a00c11b364",
+      "bytes": 24548
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_008.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_008.json",
+      "sha256": "e427d1a4a31e45056c182c9bceaef1e032bcf88925afdecf34ee5d0729bc2748",
+      "bytes": 23757
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_009.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_009.json",
+      "sha256": "ee034cd2639dfdf90dc929a31ca76e02782392488580fe8158aef60e22532b67",
+      "bytes": 23977
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_010.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_010.json",
+      "sha256": "e3ebbb3e3e322e86d69a73070f2b8c6293ced820f9bf77c2f81bc9385dd95769",
+      "bytes": 23431
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_011.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_011.json",
+      "sha256": "94f3b59084a21886c514693ae5981db79e36f3be9c90c6435159800f18e5bf28",
+      "bytes": 23545
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_012.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_012.json",
+      "sha256": "5d14da9604fcb33f9b07fb8bf6a65c69e02079edb8ad64094afbf69d7b52fe05",
+      "bytes": 22095
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_013.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_013.json",
+      "sha256": "4576050a542eb97d6960b213a235df65e3f821fbd5d1f351e80726df7e6157de",
+      "bytes": 22381
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_014.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_014.json",
+      "sha256": "c11fc4571490126ab066fc3e5e20eaa4e7df0fdfcc5b898e06faba30c7a76b01",
+      "bytes": 22451
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_015.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_015.json",
+      "sha256": "695654e1cbd05f9e299bcadcb043de4f60a8bbdf29fc2c49c62762d9b2d50cfd",
+      "bytes": 22429
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_016.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_016.json",
+      "sha256": "fce794d34016deac2d355069afbcd8924d2a5077623aaf9ad81bb82cbfba79c8",
+      "bytes": 23914
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_017.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_017.json",
+      "sha256": "f56a87d447b7f95f6eaaf021cfe85267f191f0494553c3abd1a73813f24d3f21",
+      "bytes": 22971
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_018.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_018.json",
+      "sha256": "c13f21225740288769d8bdc683ff4c269d204291dd6f93c4356e81f04bd4f284",
+      "bytes": 24281
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_019.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_019.json",
+      "sha256": "bad4b33f26a5878a670300141bd977bbe47297405dcb17e36379d3158b583c97",
+      "bytes": 23619
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_020.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_020.json",
+      "sha256": "aca4e41db7226ffe8db929c5a96fac757b4a1dcf276575a770ea41ac14828e52",
+      "bytes": 23197
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_021.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_021.json",
+      "sha256": "d717a7c74c57a8cfc980c330a56b8af22e1b59e301e6dce6fd040628a6e248e5",
+      "bytes": 23709
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_022.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_022.json",
+      "sha256": "5faf6d1a72ce106d72dc079663c6d1faf0323b3116c5ddcf09058cf86aff6f3a",
+      "bytes": 23808
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_023.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_023.json",
+      "sha256": "5559eeb80f5d94a5c3b72b62807baf82f11305aaf17730af080eb2a902f3f357",
+      "bytes": 22943
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_024.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_024.json",
+      "sha256": "d10d74e4c1fcb56570407bca110e53fba27241aa0f248a851d5d4f583b3e6153",
+      "bytes": 22812
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_025.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_025.json",
+      "sha256": "9b0826798260526be3e9e1b12517cb9da93baad40693b92633b3751735b5edbc",
+      "bytes": 23489
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_026.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_026.json",
+      "sha256": "1b0ca889ff802d95a8a9357bd0dc968f17c9fc0912bb17b2fcbca765ac214ada",
+      "bytes": 23528
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_027.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_027.json",
+      "sha256": "cb5c2bb09dddaaf77670328f4c0722f3bf33a7491a879b66ce8cfff99ccc261f",
+      "bytes": 22440
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_028.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_028.json",
+      "sha256": "8d8efcd30ecf666225e622148ae98928f1cdc14e77877f43bdefc2ed0e9a5dcd",
+      "bytes": 20862
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_029.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_029.json",
+      "sha256": "aa549a615a7d8ff5732d93a74e503dd55180c997f0ea85be1ea7be73545122e2",
+      "bytes": 23183
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_030.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_030.json",
+      "sha256": "a77db85685bd2ef5b221c4a23a6f0d49680894953676041fc2b9f86e2bf678e3",
+      "bytes": 22201
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_031.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_031.json",
+      "sha256": "70befd4764614fe57950f22869eac10cef2dedbc9f301243d32b5ca463341b34",
+      "bytes": 23163
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_032.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_032.json",
+      "sha256": "48945510934f13afa2eac307028f946bc11bfbd9fa39aa9cb8bb020fe6fccb2d",
+      "bytes": 23451
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_033.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_033.json",
+      "sha256": "afab24d4dbfa2c8564068dae604bc486f398fe3c6fbb71c320c0f273259b063a",
+      "bytes": 22718
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_034.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_034.json",
+      "sha256": "edde1c377b01c85e02892b7525d8bdcd41864076d6ae2f48e85f50ad81a23db8",
+      "bytes": 22126
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_035.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_035.json",
+      "sha256": "52c6ad979ef2f186a4caf95d564ad1063c2f1d1b6183aa6f9c5fadf27937da39",
+      "bytes": 21991
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_036.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_036.json",
+      "sha256": "47f472cd1bf4b8127bf804452d81f002f1af326111fb60eb5bc3e432b325975e",
+      "bytes": 23962
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_037.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_037.json",
+      "sha256": "3b92d17b2d5f9a6b38b6f775b0c4af8fa96e2cef035967378c5249aa9b4b313b",
+      "bytes": 21754
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_038.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_038.json",
+      "sha256": "6a815197d4a9c01d209a0200b77dfadab7f7466d42f673def365bbcff7aadcde",
+      "bytes": 22041
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_039.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/roc/epoch_039.json",
+      "sha256": "2e580e58ba5d7d22b48d509b454d368a4a6f7801c160dd1d55832061edc2dd68",
+      "bytes": 22041
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/learning_figures_audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/learning_figures_audit.json",
+      "sha256": "5f6b48ea8ff123e1de21e14e6c4db766112cccaefc8fb0dc3aa3a4ec245a9afe",
+      "bytes": 1023
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/manifest.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/manifest.json",
+      "sha256": "e9e71ab44c33b8cffe7559da2f37b6809c585c2dbab2dc012564ac84b7227d63",
+      "bytes": 3342
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/scripts/train.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/scripts/train.py",
+      "sha256": "cb101e107cf4e450dd5e9d6b55fa89534d22f7ecfc7f575aa668773f82163205",
+      "bytes": 4642
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/__init__.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/architecture.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/architecture.py",
+      "sha256": "5c4c9e24fbd2097f11ccf4b06af0ba44098c50028ae14e6d68a2434558b7e76c",
+      "bytes": 3594
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/artifacts.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/artifacts.py",
+      "sha256": "2d318b96745ca433b85cf3927a649a715de243002a3c4bb270e624716ff4f817",
+      "bytes": 12605
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/attention.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/attention.py",
+      "sha256": "e670385fdf8720a99805821f0fa4dfb0a65a6949ea64e6508a330db600f29d8f",
+      "bytes": 2043
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/clinical.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/clinical.py",
+      "sha256": "b226cd36854b93d37b07c778023739d4ecb19f7c398181515d02c102e59ac0d2",
+      "bytes": 2690
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/config.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/config.py",
+      "sha256": "a196ecbd8985f243b5a50373e444895d1e7481cc118fb9e6c979f1ad77d561ef",
+      "bytes": 7852
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/final_plots.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/final_plots.py",
+      "sha256": "8f5222337000d4da9c63ebb7ebdb080f44ecb375f79c05f69219c6259e88ec63",
+      "bytes": 1439
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/metrics.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/metrics.py",
+      "sha256": "d994785592a7de11ffed56a3a4f0a0836b932d5e0c177e554964604f247f0258",
+      "bytes": 3537
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/model.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/model.py",
+      "sha256": "3c4b43ddd650ba21ff25136ad4aadd5781cefc2a9096d0973668eece8f914a92",
+      "bytes": 3710
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/preprocessing.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/preprocessing.py",
+      "sha256": "82913a9ca979ae74191cba353908c878ac86a8b5367ffc4a811db92c887bf5ff",
+      "bytes": 2418
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/refit_pilot.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/refit_pilot.py",
+      "sha256": "59a0f25b1f2dd0685a316e50109bcadabf146c12324ca4b1b2bc9cfefb5cc5f2",
+      "bytes": 7563
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/training.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/src/breastdcedl/training.py",
+      "sha256": "d74cbccc9f15746a8370d3188d23b402493f3433f8991b847af21ac27dcfb778",
+      "bytes": 19022
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/source/utils_caso.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/source/utils_caso.py",
+      "sha256": "1d6bf85893cbc3898d8ad9722df0c74ddb0945ba36b5169e73ab44eb8c9d0377",
+      "bytes": 10286
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/audit.json",
+      "sha256": "a23be0fbaec1eb913d0411f30b553068981ca56b54fa8c5bf21e84c867b40a74",
+      "bytes": 1482
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/fp_budgets.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/fp_budgets.csv",
+      "sha256": "d4eb6393c6c202d9672d1848cd098b147789fbfbc017c36b300f900150738bff",
+      "bytes": 176
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matrices_030_040.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matrices_030_040.png",
+      "sha256": "899ed4ed478c78e53f2dc6d1390063a74c4e1c33d9b09f5cda0d3d117d55c698",
+      "bytes": 190860
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.30.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.30.png",
+      "sha256": "4433867ec283c15ffbe539c67b275556f0197f9c502f798257696625cb142e57",
+      "bytes": 26584
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.31.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.31.png",
+      "sha256": "a5f31ca8e83e79bbbb9f541bc70c335f3556ed8949e8d6e1ce30277bf1825507",
+      "bytes": 25986
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.32.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.32.png",
+      "sha256": "8730024cf9eace4cf4875d42f85c931a93561e481ea86ac171aa9f395627c558",
+      "bytes": 26284
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.33.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.33.png",
+      "sha256": "362419d408811937baab60f8cd6fb0b75d1de594bbc51de05d61bb5efa6a77f5",
+      "bytes": 26574
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.34.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.34.png",
+      "sha256": "4bc72ae42653941649e1ccbca87dceb358fcff6f1bf9b16cf1629dbd4b64465f",
+      "bytes": 24518
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.35.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.35.png",
+      "sha256": "f1fa8b71d0b5e6aae9f1c26288ce94995b345884dce9efc55e15a6a5b736741e",
+      "bytes": 25254
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.36.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.36.png",
+      "sha256": "dd5ba531ee8dc0f8b0ff0d7b5fc4d9548567a30e0306a01b4b497446fb7b37bd",
+      "bytes": 24810
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.37.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.37.png",
+      "sha256": "9681aa002f6fede8c22509944701437bec3b0b38c952de52311e793defda532e",
+      "bytes": 24880
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.38.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.38.png",
+      "sha256": "fb9abb0d3120a0eddf19b5aa6cabe3300fc3877f5ab3651f0f0c97b6b3f19fa4",
+      "bytes": 27046
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.39.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.39.png",
+      "sha256": "16a10f257fde56189cab9222df184421a3a5154df928fcefd119a842c2ce8f51",
+      "bytes": 25060
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.40.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/matrices_refinadas/matriz_0.40.png",
+      "sha256": "f1b90d5acc14351c5a1ca7f50ad9f591ec6ab2290f43def77dd2b70105d67e88",
+      "bytes": 24812
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/metrics.csv",
+      "sha256": "8f35ab20bf2a1d1f7a521b7c49b56437a73f90de1d1e99264fdc0472d41490f4",
+      "bytes": 11731
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/operating_points.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/operating_points.csv",
+      "sha256": "b835a52ded807618d4dad989dcdf7cd60dd8777874dfb63dbea32fe0ecfd7726",
+      "bytes": 38992
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/refined_audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/refined_audit.json",
+      "sha256": "6314173e0be9e7ece63374c9ab4c981393a6d65c790f40a324e24983078a2083",
+      "bytes": 742
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/refined_thresholds.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_comparison/20261026T005412_420724Z/refined_thresholds.csv",
+      "sha256": "3d5d6de021dcb6ca7a1a09a00ccb2b28312299477af9ad8567a13c7fcc3a6cc7",
+      "bytes": 1364
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_review/audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_review/audit.json",
+      "sha256": "e5df59c5428ee5a847e5ad3641e97be45287f5797b1deffc83c2a72be50e46c9",
+      "bytes": 1312
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_review/compare.py",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_review/compare.py",
+      "sha256": "7ed3a5ef9a26cd4f3a02e4c5701fdcefbc1ff887f74cb92cb5a716388d03ecaf",
+      "bytes": 2907
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_review/thresholds_oof.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/threshold_review/thresholds_oof.csv",
+      "sha256": "198664cf52fd8528509b815873971d50ac4a519517474ee272c4d6a896eb9c4b",
+      "bytes": 7185
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_16x16.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_16x16.bin",
+      "sha256": "4cb7e92e1e5098f6e180ba2224f022e066e947091751915d876f9e4c08d0fb5d",
+      "bytes": 3072
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_244x244.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_244x244.bin",
+      "sha256": "36f85b1e665116d743d621f4104e5bb7eab68394daa8abf25e739decc4f3bded",
+      "bytes": 714432
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_256x256.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_256x256.bin",
+      "sha256": "974b7580f20c6c574a2cb3e1ac32ae13a7cd46ba726b36f996c0a731110193bb",
+      "bytes": 786432
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_257x319.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_257x319.bin",
+      "sha256": "05d16a97790f3b5ad4e2f734b5033748e839e4f763da4832c737268ee0b8100f",
+      "bytes": 983796
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_31x49.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/input_31x49.bin",
+      "sha256": "8ea1361c8e4c31a5d99077b230d904a7907ab324f79a632f9e16f1aa2f97ef63",
+      "bytes": 18228
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/manifest.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/manifest.json",
+      "sha256": "a5294b951b3944061118404ea7f286fa26112060beb6e60b6b6a83b1fe83a59d",
+      "bytes": 5393
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/model.onnx",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/model.onnx",
+      "sha256": "0b22349d09d115a779c6375f62ada50e492adbc7ab9eaaad0b04af6fc0bbc8d7",
+      "bytes": 2375365
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/site_content_audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/site_content_audit.json",
+      "sha256": "eeeb25b7fec415f1bcea4e12cc796c0c3a687e4d43d02d3f82da96efe35df7a8",
+      "bytes": 1324
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/web_preparation_audit.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_export/web_preparation_audit.json",
+      "sha256": "181bef0db834dbf1a46e1905ea7f0eb6d671abc64caf36a14530dd4003ae876c",
+      "bytes": 4211
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16.bin",
+      "sha256": "635f63550ba104e0c22222e6edbbc43c985ca4109956d900444684a57f0866ae",
+      "bytes": 3072
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16_cam_no_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16_cam_no_pcr.bin",
+      "sha256": "d8f7f9a68db6614762db79513f0b60248e935066e3e1cdfc5c8f713fbebe463c",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16_cam_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16_cam_pcr.bin",
+      "sha256": "6a8cb17e26b104696acf1853cc494b8d28eb72ab41a6d572f598978558f9b1a7",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16_probability.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_16x16_probability.bin",
+      "sha256": "a72171087cd5add5761a519efa455b6a5b33885f564571571524421161a57e1c",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244.bin",
+      "sha256": "a2cac30af716dbc39bdcdb570b32abfea8a9aae9472d95d002665316f53f8a1f",
+      "bytes": 714432
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244_cam_no_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244_cam_no_pcr.bin",
+      "sha256": "4a8432010b7f823a1ee5947cbdae88ade9c453ed6eb03dd9d672e625bd200203",
+      "bytes": 900
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244_cam_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244_cam_pcr.bin",
+      "sha256": "14736b85082ea347d4396c78691e81dcaa6657d87793f0619ceee6895ba788f3",
+      "bytes": 900
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244_probability.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_244x244_probability.bin",
+      "sha256": "45ac8c9798dfe962319970608e14c237de787b492f1b4da2f8fc193ef1981033",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256.bin",
+      "sha256": "b5bf2d02b0c04d759aafa029fa5b97fd19ad3c9534ac3da1d83a902f41b2cb9e",
+      "bytes": 786432
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256_cam_no_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256_cam_no_pcr.bin",
+      "sha256": "55dc9b97ce89254d6c83c3f62f4c80e54198cdc8ef0d6113fa5100d05c86a3fc",
+      "bytes": 1024
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256_cam_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256_cam_pcr.bin",
+      "sha256": "5231809bd4fe089621e7a2e3c0db551e801539e7ef0e64b5b130aaa2eff4e2d7",
+      "bytes": 1024
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256_probability.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_256x256_probability.bin",
+      "sha256": "2dc1c4335eefb897befc78594a48ce00b6154c0d83e615d4f5cf3489560f486d",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319.bin",
+      "sha256": "bcc7b1e7d67d849f5a99971870858f333a76cea3f98f7f02002d1be3d3219a65",
+      "bytes": 983796
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319_cam_no_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319_cam_no_pcr.bin",
+      "sha256": "93241d00be9632b2d7331093f74bb7db3166a6a2a83d22120cf1200f467d2365",
+      "bytes": 1216
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319_cam_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319_cam_pcr.bin",
+      "sha256": "20f76889f0f060205afc5dba6b083c911d447e7403a0ccf2deb1af471c665631",
+      "bytes": 1216
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319_probability.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_257x319_probability.bin",
+      "sha256": "2d91cb7c4c5d943009abcdcdbb8595314962c2b3c4c747aaffb1d165ab95c16f",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49.bin",
+      "sha256": "e09bf8147f7a013f5545f7644c760e40a9d4319e22fac239204ad503112f52e0",
+      "bytes": 18228
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49_cam_no_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49_cam_no_pcr.bin",
+      "sha256": "1894be81d0a1430c9fe232023e30b09ca85d8774b06efe0c2e37d4c99b58fd05",
+      "bytes": 12
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49_cam_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49_cam_pcr.bin",
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "bytes": 12
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49_probability.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_1_31x49_probability.bin",
+      "sha256": "21a9bbcae1fca9b8a19b390fb191a1ec99604e2824f4b0ec841aa9c3ac8fdbe1",
+      "bytes": 4
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48.bin",
+      "sha256": "5ef0e626f4eec6cd845a10381f4501306bdd8a2f40b9f5a14b82b379bdb2a2dc",
+      "bytes": 36864
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48_cam_no_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48_cam_no_pcr.bin",
+      "sha256": "bcfe1d7f56b0103282c5dce589a42808e2b167789508a4a431e00708aabbfa0e",
+      "bytes": 48
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48_cam_pcr.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48_cam_pcr.bin",
+      "sha256": "40be34fda8b1e4fefcd066fce5245901af6c4bb02766c9c559451c81b371fe94",
+      "bytes": 48
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48_probability.bin",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/gradcam_2_32x48_probability.bin",
+      "sha256": "4c53fa2d26ea2b8d3e4a355aca6d243ab7df6198d9f1dd41e5ab5a7562363345",
+      "bytes": 8
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/manifest.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/manifest.json",
+      "sha256": "18f6491c7569dff6777e1b36ea8a1d9de5d242daaed19dc0355d71082c499108",
+      "bytes": 2496
+    },
+    {
+      "source": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/model-gradcam.onnx",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/web_gradcam/model-gradcam.onnx",
+      "sha256": "589f0e5a546fb395660ae4392d0f4ce191ed8b969067e44c7972f115671c3243",
+      "bytes": 2386418
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/config.json",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/config.json",
+      "sha256": "0df24c4935628b9e3f761b526400484d28f1e930028e467bb054257f8a66dcf6",
+      "bytes": 1415
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/curvas_conjuntas_ponderada.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/curvas_conjuntas_ponderada.png",
+      "sha256": "49e18d188c41ce846f000e113a0a089934cabdd64d5384e5163b1ec8bbc103f8",
+      "bytes": 308773
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/curvas_detalle_ponderada.png",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/curvas_detalle_ponderada.png",
+      "sha256": "4e0077e8afeb392f155d9ce8c157bb262f653fff042fb6748d800bb9faa5044f",
+      "bytes": 660690
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/fold_0/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/fold_0/metrics.csv",
+      "sha256": "9ec1bbea5eed645cf75a284e8eeb39790c76ed848094e17862375631b9745e1b",
+      "bytes": 26371
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/fold_1/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/fold_1/metrics.csv",
+      "sha256": "3e0b730ee926742fc9b9e693a64eff05a9cb4dcec796a3c6d788556d007166e5",
+      "bytes": 19752
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/fold_2/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/fold_2/metrics.csv",
+      "sha256": "04dce2d001eda46ce7babff59cd5b90cb457f2e08b6b4ab9443148a85d848715",
+      "bytes": 21756
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/fold_3/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/fold_3/metrics.csv",
+      "sha256": "00ded2a4d4cb22348dc6050fb364b9eb768aea16c3ded18e4ef8deb7f09bb613",
+      "bytes": 29825
+    },
+    {
+      "source": "runs/experimento-7-wd001-ponderada-folds/20261026T211658_232555Z/fold_4/metrics.csv",
+      "destination": "experiments/experimento-7-wd001-folds/20261025T114348_995603Z/comparison_weighted/fold_4/metrics.csv",
+      "sha256": "deeb7b314a77f4c418c62e89c35b54e657ec2ce84adae16befd76cfbdba1aa3e",
+      "bytes": 10223
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source": "operating_points.csv",
+  "source_sha256": "b835a52ded807618d4dad989dcdf7cd60dd8777874dfb63dbea32fe0ecfd7726",
+  "scope": "pooled OOF, one held-out model per patient; NOT full ensemble",
+  "patients": 1097,
+  "complete_points_verified": true,
+  "previous_counts_reproduced": true,
+  "inference_repeated": false,
+  "test_used": false,
+  "grid": "0.20 through 0.60 inclusive, step 0.01",
+  "selected_threshold": null,
+  "best_balanced_accuracy": {
+    "threshold": 0.35,
+    "tn": 531,
+    "fp": 244,
+    "fn": 170,
+    "tp": 152,
+    "sensitivity": 0.4720496894409938,
+    "specificity": 0.6851612903225807,
+    "precision_pcr": 0.3838383838383838,
+    "f1_pcr": 0.4233983286908078,
+    "f1_no_pcr": 0.7195121951219512,
+    "macro_f1": 0.5714552619063795,
+    "balanced_accuracy": 0.5786054898817872,
+    "accuracy": 0.6226071103008204
+  },
+  "best_macro_f1": {
+    "threshold": 0.35,
+    "tn": 531,
+    "fp": 244,
+    "fn": 170,
+    "tp": 152,
+    "sensitivity": 0.4720496894409938,
+    "specificity": 0.6851612903225807,
+    "precision_pcr": 0.3838383838383838,
+    "f1_pcr": 0.4233983286908078,
+    "f1_no_pcr": 0.7195121951219512,
+    "macro_f1": 0.5714552619063795,
+    "balanced_accuracy": 0.5786054898817872,
+    "accuracy": 0.6226071103008204
+  }
+}

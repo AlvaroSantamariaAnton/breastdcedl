@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\final_test\\metrics.json": "f71ef2d9f00c20b16d788a686763d898806b74b670ddefd848fdac236a945498",
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\final_test\\patient_scores.csv": "a67dd8af6ae8935688b07aaffa40c8d7082229824070171388076965ec408212",
+    "configs\\modelo_final.json": "14b38906f0b71de9f3444553c4e05da31c33b06c3dc1d270b72d54c8c189aa27",
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\fold_0\\metrics.csv": "dfa4b473738168c18420554c5c39b57e25966746b9275d3fd127b207def99459",
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\fold_1\\metrics.csv": "2cd4b8c6755f576e7f97ec681e89a4a6fedb78c9c3bd9635f9e3c97d7545feb1",
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\fold_2\\metrics.csv": "33dbda4e46fa3da3fe51ee8c98c11d068dd0ee88e9840a180f49334e3ad28b5f",
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\fold_3\\metrics.csv": "5fedb26ab9568889e4c17a4042270e9b988ba5e0ff83750423741ba0c19f3a87",
+    "runs\\experimento-7-wd001-folds\\20261025T114348_995603Z\\fold_4\\metrics.csv": "0de7678cbb6a9d180746e33098e497442c402ad7beb6e36a927a35ae1831bf7f"
+  },
+  "inference_repeated": false,
+  "training_performed": false,
+  "figures": [
+    "curvas_aprendizaje_folds.png",
+    "auc_epocas_elegidas.png",
+    "curvas_test.png"
+  ],
+  "note": "No test threshold sweep; no new confidence interval estimation; historical learning curves distinguished from ensemble test."
+}

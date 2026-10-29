@@ -1,0 +1,26 @@
+{
+  "isolated_directory": "D:\\proyectos\\breastdcedl\\reports\\local\\without_runs_ok9s59h8",
+  "runs_present": false,
+  "dataset_present": false,
+  "prepare_web_passed": true,
+  "synthetic_shapes": 5,
+  "gradcam_synthetic_shapes": 6,
+  "max_onnx_pytorch_error": 4.470348358154297e-08,
+  "checkpoint_hashes_unchanged": true,
+  "training_performed": false,
+  "real_test_inference_performed": false,
+  "browser_verification": {
+    "prediction": "passed",
+    "tensor_cases": 5,
+    "png_cases": 4,
+    "invalid_cases": 6,
+    "gradcam": "passed",
+    "gradcam_cases": 5,
+    "url": "http://127.0.0.1:8878/",
+    "served_from_isolated_copy": true
+  },
+  "remote_weights": "Hugging Face URLs retained in web/inference.js; local ONNX copies also packaged.",
+  "archive_hashes_verified": 349,
+  "git_eligible_files": 433,
+  "runs_still_ignored": true
+}

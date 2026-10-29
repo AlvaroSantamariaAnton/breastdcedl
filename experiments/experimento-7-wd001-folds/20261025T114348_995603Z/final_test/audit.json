@@ -1,0 +1,29 @@
+{
+  "state": "completed",
+  "test_used": true,
+  "device": "cuda",
+  "python": "3.12.14",
+  "torch": "2.14.0+cu126",
+  "bootstrap_replicas": 2000,
+  "bootstrap_seed": 42,
+  "hashes": {
+    "configs\\modelo_final.json": "14b38906f0b71de9f3444553c4e05da31c33b06c3dc1d270b72d54c8c189aa27",
+    "scripts\\evaluate_final.py": "9b985b9a17ee49769cbcdf9ead9b6b01915705917d7e0ff9062643028f542c65",
+    "metadata\\samples.csv": "7ddd0ecc8272e6460211bd63c1479513bf815e3ea518d1b6bafdcd69f9a75c03",
+    "metadata\\patients.csv": "ca3b1f8e4d1bc1abf276659bda60520075ace9bd384d623e34d85746ebf50885",
+    "src\\breastdcedl\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\breastdcedl\\architecture.py": "471a0bbcd08c59947782b5e79910e1e137bbab7077c1d29cdeb0eba494fa2d62",
+    "src\\breastdcedl\\artifacts.py": "fc299d88bee5e14a6e47e75c71349d1f2cfe7152377174ed94a06fd277826b93",
+    "src\\breastdcedl\\config.py": "1cdb573a7ea16e70a6106074be7275e751aa7b20558f09878c0948e113a75899",
+    "src\\breastdcedl\\final_evaluation.py": "1b96fa37e2b3f4f681d1ab13d0afe312c302476d9afcec1edefe680ede4106d1",
+    "src\\breastdcedl\\inference.py": "6d1a7d1b4fbdd4f0d855a334074c513e7ae5ddd6e66496767d225491eb9f368b",
+    "src\\breastdcedl\\input.py": "2867c87cdea854bac1bba9d0573f85144cfd2f1c2a3e8c7ff1657205dcc9f482",
+    "src\\breastdcedl\\metrics.py": "9a2724ea75d18d6182f14e02262a7b633b349e4c472f78a59ffa8253f383ee6c",
+    "src\\breastdcedl\\model.py": "1d33edaac4ade241b81863b0da40acf6e493dc697a1ef0c1ff831e4712d367f9",
+    "src\\breastdcedl\\patient_loss.py": "b0f827004a957484c4ab299e68900f1f3d2bca497492e0dfb6b17ced41f4771b",
+    "src\\breastdcedl\\preprocessing.py": "82913a9ca979ae74191cba353908c878ac86a8b5367ffc4a811db92c887bf5ff",
+    "src\\breastdcedl\\training.py": "3151dfeca8267bfc3941e6509e9163c776af7326147aabf14a4882d1d6554a6e"
+  },
+  "patients": 176,
+  "cuts": 1758
+}

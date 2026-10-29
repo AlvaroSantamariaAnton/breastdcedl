@@ -1,0 +1,58 @@
+{
+  "checkpoints": [
+    {
+      "fold": 0,
+      "epoch": 25,
+      "sha256": "c52f7873e90aa4d6ab715b04e44f921bf6464ef6b1e20e918dbd64db90d5a88c",
+      "auc": 0.6096774193548388,
+      "patients": 219
+    },
+    {
+      "fold": 1,
+      "epoch": 42,
+      "sha256": "f8c1fa4603b2fc8a33843a4365f9abccb27a3cfb4f2b7142415a49faa83e13b3",
+      "auc": 0.6440312307376207,
+      "patients": 219
+    },
+    {
+      "fold": 2,
+      "epoch": 15,
+      "sha256": "a1026e1beb86a5cea6d9966defe0f9d2bd762205f2949a268827990095eb079c",
+      "auc": 0.6485945889040952,
+      "patients": 220
+    },
+    {
+      "fold": 3,
+      "epoch": 28,
+      "sha256": "fbdbe104521acf5e5f334c7722b980b227013608c7bd3a7afe64b74b8ffef69a",
+      "auc": 0.5469425287356321,
+      "patients": 220
+    },
+    {
+      "fold": 4,
+      "epoch": 19,
+      "sha256": "aecdf131860254b6318edcb3f7ddbc1189dc16a4fe9e76837eab6900e53a8ead",
+      "auc": 0.6093075816724882,
+      "patients": 219
+    }
+  ],
+  "patients": 1097,
+  "thresholds": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ],
+  "proposed_threshold": 0.35,
+  "criterion": "pooled OOF balanced accuracy; ties closest to .5 then higher",
+  "device": "cuda",
+  "torch": "2.14.0+cu126",
+  "test_used": false,
+  "weights_unchanged": true,
+  "note": "Exploratory internal validation. Best among requested thresholds only; not automatically applied to final model."
+}

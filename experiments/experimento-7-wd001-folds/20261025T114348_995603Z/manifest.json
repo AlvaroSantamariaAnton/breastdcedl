@@ -1,0 +1,100 @@
+{
+  "format_version": 1,
+  "sources": {
+    "metadata/patients.csv": "ca3b1f8e4d1bc1abf276659bda60520075ace9bd384d623e34d85746ebf50885",
+    "metadata/samples.csv": "7ddd0ecc8272e6460211bd63c1479513bf815e3ea518d1b6bafdcd69f9a75c03",
+    "scripts/train.py": "cb101e107cf4e450dd5e9d6b55fa89534d22f7ecfc7f575aa668773f82163205",
+    "src/breastdcedl/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/breastdcedl/architecture.py": "5c4c9e24fbd2097f11ccf4b06af0ba44098c50028ae14e6d68a2434558b7e76c",
+    "src/breastdcedl/artifacts.py": "2d318b96745ca433b85cf3927a649a715de243002a3c4bb270e624716ff4f817",
+    "src/breastdcedl/attention.py": "e670385fdf8720a99805821f0fa4dfb0a65a6949ea64e6508a330db600f29d8f",
+    "src/breastdcedl/clinical.py": "b226cd36854b93d37b07c778023739d4ecb19f7c398181515d02c102e59ac0d2",
+    "src/breastdcedl/config.py": "a196ecbd8985f243b5a50373e444895d1e7481cc118fb9e6c979f1ad77d561ef",
+    "src/breastdcedl/final_plots.py": "8f5222337000d4da9c63ebb7ebdb080f44ecb375f79c05f69219c6259e88ec63",
+    "src/breastdcedl/metrics.py": "d994785592a7de11ffed56a3a4f0a0836b932d5e0c177e554964604f247f0258",
+    "src/breastdcedl/model.py": "3c4b43ddd650ba21ff25136ad4aadd5781cefc2a9096d0973668eece8f914a92",
+    "src/breastdcedl/preprocessing.py": "82913a9ca979ae74191cba353908c878ac86a8b5367ffc4a811db92c887bf5ff",
+    "src/breastdcedl/refit_pilot.py": "59a0f25b1f2dd0685a316e50109bcadabf146c12324ca4b1b2bc9cfefb5cc5f2",
+    "src/breastdcedl/training.py": "d74cbccc9f15746a8370d3188d23b402493f3433f8991b847af21ac27dcfb778",
+    "utils_caso.py": "1d6bf85893cbc3898d8ad9722df0c74ddb0945ba36b5169e73ab44eb8c9d0377"
+  },
+  "config": {
+    "name": "experimento-7-wd001-folds",
+    "seed": 42,
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "device": "cuda",
+    "model": {
+      "blocks": [
+        {
+          "channels": 16,
+          "convolutions": 2,
+          "kernel_size": 3,
+          "normalization": "none",
+          "pool": "max"
+        },
+        {
+          "channels": 32,
+          "convolutions": 2,
+          "kernel_size": 3,
+          "normalization": "none",
+          "pool": "max"
+        },
+        {
+          "channels": 64,
+          "convolutions": 1,
+          "kernel_size": 3,
+          "normalization": "none",
+          "pool": "max"
+        },
+        {
+          "channels": 128,
+          "convolutions": 1,
+          "kernel_size": 3,
+          "normalization": "none",
+          "pool": "max"
+        }
+      ],
+      "activation": "relu",
+      "adaptive_pool_size": 1,
+      "hidden_features": [
+        64
+      ],
+      "dropout": 0.2,
+      "clinical": "none",
+      "attention": "none"
+    },
+    "training": {
+      "batch_size": 64,
+      "max_epochs": 50,
+      "patience": 20,
+      "min_epochs": 10,
+      "loss": "normal",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "weight_decay": 0.001,
+      "momentum": 0.9,
+      "log_every_batches": 50
+    },
+    "evaluation": {
+      "threshold": 0.3
+    },
+    "preprocessing": {
+      "normalization": "standardize"
+    },
+    "augmentation": {
+      "horizontal_flip_probability": 0.5
+    },
+    "scheduler": null,
+    "roi_supervision": null
+  },
+  "normalization": {
+    "normalization": "standardize"
+  },
+  "aggregation": "mean probabilities per patient"
+}

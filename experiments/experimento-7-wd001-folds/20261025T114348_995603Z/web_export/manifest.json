@@ -1,0 +1,200 @@
+{
+  "model": "model.onnx",
+  "sha256": "0b22349d09d115a779c6375f62ada50e492adbc7ab9eaaad0b04af6fc0bbc8d7",
+  "threshold": 0.35,
+  "input": "float32 PNG/255 N,3,H,W PRE/EARLY/LATE; normalization embedded",
+  "ensemble": "five equal probability weights; one probability per cut",
+  "source_manifest": {
+    "name": "modelo-final",
+    "aggregation": "mean_probabilities",
+    "patient_aggregation": "mean",
+    "calibration": null,
+    "threshold": 0.35,
+    "threshold_status": "approved_by_user_2026-10-28",
+    "training_config": {
+      "name": "experimento-7-wd001-folds",
+      "seed": 42,
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "device": "cuda",
+      "model": {
+        "blocks": [
+          {
+            "channels": 16,
+            "convolutions": 2,
+            "kernel_size": 3,
+            "normalization": "none",
+            "pool": "max"
+          },
+          {
+            "channels": 32,
+            "convolutions": 2,
+            "kernel_size": 3,
+            "normalization": "none",
+            "pool": "max"
+          },
+          {
+            "channels": 64,
+            "convolutions": 1,
+            "kernel_size": 3,
+            "normalization": "none",
+            "pool": "max"
+          },
+          {
+            "channels": 128,
+            "convolutions": 1,
+            "kernel_size": 3,
+            "normalization": "none",
+            "pool": "max"
+          }
+        ],
+        "activation": "relu",
+        "adaptive_pool_size": 1,
+        "hidden_features": [
+          64
+        ],
+        "dropout": 0.2,
+        "clinical": "none",
+        "attention": "none"
+      },
+      "training": {
+        "batch_size": 64,
+        "max_epochs": 50,
+        "patience": 20,
+        "min_epochs": 10,
+        "loss": "normal",
+        "optimizer": "adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.001,
+        "momentum": 0.9,
+        "log_every_batches": 50
+      },
+      "evaluation": {
+        "threshold": 0.3
+      },
+      "preprocessing": {
+        "normalization": "standardize"
+      },
+      "augmentation": {
+        "horizontal_flip_probability": 0.5
+      },
+      "scheduler": null,
+      "roi_supervision": null
+    },
+    "members": [
+      {
+        "fold": 0,
+        "epoch": 25,
+        "checkpoint": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_0/checkpoints/best.pt",
+        "sha256": "c52f7873e90aa4d6ab715b04e44f921bf6464ef6b1e20e918dbd64db90d5a88c"
+      },
+      {
+        "fold": 1,
+        "epoch": 42,
+        "checkpoint": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_1/checkpoints/best.pt",
+        "sha256": "f8c1fa4603b2fc8a33843a4365f9abccb27a3cfb4f2b7142415a49faa83e13b3"
+      },
+      {
+        "fold": 2,
+        "epoch": 15,
+        "checkpoint": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_2/checkpoints/best.pt",
+        "sha256": "a1026e1beb86a5cea6d9966defe0f9d2bd762205f2949a268827990095eb079c"
+      },
+      {
+        "fold": 3,
+        "epoch": 28,
+        "checkpoint": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_3/checkpoints/best.pt",
+        "sha256": "fbdbe104521acf5e5f334c7722b980b227013608c7bd3a7afe64b74b8ffef69a"
+      },
+      {
+        "fold": 4,
+        "epoch": 19,
+        "checkpoint": "runs/experimento-7-wd001-folds/20261025T114348_995603Z/fold_4/checkpoints/best.pt",
+        "sha256": "aecdf131860254b6318edcb3f7ddbc1189dc16a4fe9e76837eab6900e53a8ead"
+      }
+    ],
+    "decision_rule": "p >= threshold: pCR; p < threshold: no pCR; apply after aggregation",
+    "threshold_selection": {
+      "criterion": "maximum pooled OOF balanced accuracy on grid 0.20 to 0.60, step 0.01",
+      "scope": "academic balance: equal weight to sensitivity and specificity",
+      "limitation": "OOF threshold transferred to five-model ensemble; ensemble performance not measured by OOF",
+      "test_used": false
+    }
+  },
+  "checks": [
+    {
+      "shape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "input": "input_256x256.bin",
+      "expected": [
+        0.08716321736574173
+      ],
+      "max_absolute_error": 2.2351741790771484e-08
+    },
+    {
+      "shape": [
+        1,
+        3,
+        244,
+        244
+      ],
+      "input": "input_244x244.bin",
+      "expected": [
+        0.09050904959440231
+      ],
+      "max_absolute_error": 1.4901161193847656e-08
+    },
+    {
+      "shape": [
+        1,
+        3,
+        31,
+        49
+      ],
+      "input": "input_31x49.bin",
+      "expected": [
+        0.08132393658161163
+      ],
+      "max_absolute_error": 0.0
+    },
+    {
+      "shape": [
+        1,
+        3,
+        257,
+        319
+      ],
+      "input": "input_257x319.bin",
+      "expected": [
+        0.07687032222747803
+      ],
+      "max_absolute_error": 7.450580596923828e-09
+    },
+    {
+      "shape": [
+        1,
+        3,
+        16,
+        16
+      ],
+      "input": "input_16x16.bin",
+      "expected": [
+        0.1688765287399292
+      ],
+      "max_absolute_error": 4.470348358154297e-08
+    }
+  ],
+  "onnx_version": "1.23.2",
+  "runtime_version": "1.31.1",
+  "browser_verified": false,
+  "test_repeated": false
+}

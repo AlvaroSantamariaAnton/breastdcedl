@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "inicio",
+    "datos",
+    "modelo",
+    "experimentos",
+    "resultados",
+    "prediccion",
+    "referencias"
+  ],
+  "unique_ids": true,
+  "local_links_and_figures_exist": true,
+  "prediction_controls_preserved": true,
+  "weights_unchanged": true,
+  "browser_visual_review": "pending for new multi-section version",
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app.js": "9a283a45cb9c802b15ce1a81ff06e717390a37c572f0115fe5c959375dae2a20",
+    "favicon.svg": "fe34264eb3628beb30cda337b2d631d3a2ebc72c5c4113e0a2b2e0c955faca3e",
+    "index.html": "f63ef9853a16463488e5fbe8846260528826667294594c83f570eb157c1d89db",
+    "inference.js": "2165be5000ca99eef680f2d587874ba18b1fc90d4d4d82566f453e5e984f2e2b",
+    "navigation.js": "ae711a037ea5d8b24e1d283061d79f3bd4e0c3501794f67a3eca458b99df1235",
+    "png.js": "25525fd5999768607cb16030069b11f01c3faef9f116922826096b53cb6409d9",
+    "project.css": "5f403db2075c7bdec5f9118f7ed7788db91842acdeed32447acaa6babea36f8e",
+    "style.css": "d8421e5327c56d15d18028316cf44549b66a559eea6ed6941c197fb9af49f290",
+    "verify.html": "b9a50801e85329e7da48254c7a997a88c6ab695beffd793d5a534f6a3770c5ae",
+    "verify.js": "cf2611e85dfb521256f1fc3abb3380e22b9e6962ddefec7273a250f34d5e36cb"
+  }
+}

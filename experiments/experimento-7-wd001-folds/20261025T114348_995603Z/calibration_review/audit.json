@@ -1,0 +1,63 @@
+{
+  "checkpoints": [
+    {
+      "fold": 0,
+      "epoch": 25,
+      "last_epoch": 45,
+      "completed": true,
+      "sha256": "c52f7873e90aa4d6ab715b04e44f921bf6464ef6b1e20e918dbd64db90d5a88c",
+      "patients": 219
+    },
+    {
+      "fold": 1,
+      "epoch": 42,
+      "last_epoch": 50,
+      "completed": true,
+      "sha256": "f8c1fa4603b2fc8a33843a4365f9abccb27a3cfb4f2b7142415a49faa83e13b3",
+      "patients": 219
+    },
+    {
+      "fold": 2,
+      "epoch": 15,
+      "last_epoch": 35,
+      "completed": true,
+      "sha256": "a1026e1beb86a5cea6d9966defe0f9d2bd762205f2949a268827990095eb079c",
+      "patients": 220
+    },
+    {
+      "fold": 3,
+      "epoch": 28,
+      "last_epoch": 48,
+      "completed": true,
+      "sha256": "fbdbe104521acf5e5f334c7722b980b227013608c7bd3a7afe64b74b8ffef69a",
+      "patients": 220
+    },
+    {
+      "fold": 4,
+      "epoch": 19,
+      "last_epoch": 39,
+      "completed": true,
+      "sha256": "aecdf131860254b6318edcb3f7ddbc1189dc16a4fe9e76837eab6900e53a8ead",
+      "patients": 219
+    }
+  ],
+  "test_used": false,
+  "weights_unchanged": true,
+  "calibrator_fitted": false,
+  "baseline": "prevalence of unique training patients of corresponding fold",
+  "bin_edges": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "interval": "Wilson 95% descriptive binomial intervals; selected CV models treated as fixed",
+  "patients": 1097
+}

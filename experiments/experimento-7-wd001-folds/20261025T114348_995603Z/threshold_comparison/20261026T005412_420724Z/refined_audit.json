@@ -1,0 +1,33 @@
+{
+  "source": "operating_points.csv",
+  "rule": "p >= threshold; last descending ROC threshold >= requested threshold",
+  "scope": "pooled OOF only",
+  "thresholds": [
+    0.3,
+    0.31,
+    0.32,
+    0.33,
+    0.34,
+    0.35,
+    0.36,
+    0.37,
+    0.38,
+    0.39,
+    0.4
+  ],
+  "best": {
+    "threshold": 0.35,
+    "tn": 531,
+    "fp": 244,
+    "fn": 170,
+    "tp": 152,
+    "recall": 0.4720496894409938,
+    "specificity": 0.6851612903225807,
+    "balanced_accuracy": 0.5786054898817872,
+    "precision": 0.3838383838383838,
+    "f1": 0.4233983286908078
+  },
+  "inference_repeated": false,
+  "test_used": false,
+  "limitation": "Per-fold refined counts cannot be recovered from pooled operating points."
+}

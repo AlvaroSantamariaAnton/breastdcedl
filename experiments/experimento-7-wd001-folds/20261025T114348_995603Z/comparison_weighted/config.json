@@ -1,0 +1,75 @@
+{
+  "name": "experimento-7-wd001-ponderada-folds",
+  "seed": 42,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "device": "cuda",
+  "model": {
+    "blocks": [
+      {
+        "channels": 16,
+        "convolutions": 2,
+        "kernel_size": 3,
+        "normalization": "none",
+        "pool": "max"
+      },
+      {
+        "channels": 32,
+        "convolutions": 2,
+        "kernel_size": 3,
+        "normalization": "none",
+        "pool": "max"
+      },
+      {
+        "channels": 64,
+        "convolutions": 1,
+        "kernel_size": 3,
+        "normalization": "none",
+        "pool": "max"
+      },
+      {
+        "channels": 128,
+        "convolutions": 1,
+        "kernel_size": 3,
+        "normalization": "none",
+        "pool": "max"
+      }
+    ],
+    "activation": "relu",
+    "adaptive_pool_size": 1,
+    "hidden_features": [
+      64
+    ],
+    "dropout": 0.2,
+    "clinical": "none",
+    "attention": "none"
+  },
+  "training": {
+    "batch_size": 64,
+    "max_epochs": 50,
+    "patience": 20,
+    "min_epochs": 10,
+    "loss": "weighted",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "momentum": 0.9,
+    "log_every_batches": 50
+  },
+  "evaluation": {
+    "threshold": 0.3
+  },
+  "preprocessing": {
+    "normalization": "standardize"
+  },
+  "augmentation": {
+    "horizontal_flip_probability": 0.5
+  },
+  "scheduler": null,
+  "roi_supervision": null
+}

@@ -1,0 +1,35 @@
+ConfigurableCNN(
+  (bloques): ModuleList(
+    (0): Sequential(
+      (0): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): ReLU()
+      (2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): ReLU()
+      (4): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (1): Sequential(
+      (0): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): ReLU()
+      (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): ReLU()
+      (4): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (2): Sequential(
+      (0): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): ReLU()
+      (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+    (3): Sequential(
+      (0): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): ReLU()
+      (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    )
+  )
+  (promedio): AdaptiveAvgPool2d(output_size=1)
+  (hidden): Sequential(
+    (0): Linear(in_features=128, out_features=64, bias=True)
+    (1): ReLU()
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (salida): Linear(in_features=64, out_features=1, bias=True)
+)

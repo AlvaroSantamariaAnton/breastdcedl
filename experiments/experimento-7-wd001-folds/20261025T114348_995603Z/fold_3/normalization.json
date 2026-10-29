@@ -1,0 +1,8 @@
+{
+  "mode": "standardize",
+  "mean": 0.17688294198460586,
+  "std": 0.2282564793160158,
+  "pixels": 1720909824,
+  "scope": "train only; all pixels including background; shared PRE/EARLY/LATE",
+  "input_scale": "PNG/255"
+}
