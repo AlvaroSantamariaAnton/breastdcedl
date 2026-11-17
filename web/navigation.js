@@ -10,7 +10,7 @@ function navigate(event){
   window.scrollTo({top:0,behavior:'instant'});
   if(event && heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}
   const active=links.find(link=>link.dataset.page===target);
-  if(active && window.matchMedia('(max-width:800px)').matches){const nav=active.parentElement;nav.scrollLeft=active.offsetLeft-nav.offsetLeft-(nav.clientWidth-active.offsetWidth)/2;}
+  if(active && active.parentElement.scrollWidth>active.parentElement.clientWidth){const nav=active.parentElement;nav.scrollLeft=active.offsetLeft-nav.offsetLeft-(nav.clientWidth-active.offsetWidth)/2;}
 }
 window.addEventListener('hashchange',navigate);
 navigate();
