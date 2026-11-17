@@ -13,7 +13,7 @@ evaluación final y presentación de resultados.
 > **Uso académico.** El rendimiento obtenido es limitado y no demuestra utilidad
 > clínica. La aplicación no debe utilizarse para diagnóstico ni decisiones terapéuticas.
 
-**[Abrir la aplicación web](https://breastdcedl-web.vercel.app/)** ·
+**[Abrir la aplicación web](https://breastdcedl-v2.vercel.app/)** ·
 [Arquitectura y diagrama](docs/ARQUITECTURA.md) ·
 [Manifiesto del modelo final](experiments/modelo_final.json) ·
 [Resultados conservados](experiments/experimento-7-wd001-folds/20261025T114348_995603Z/) ·
@@ -31,7 +31,7 @@ evaluación final y presentación de resultados.
 
 ## Cómo usar la web
 
-La aplicación está publicada en **[breastdcedl-web.vercel.app](https://breastdcedl-web.vercel.app/)**.
+La aplicación está publicada en **[breastdcedl-v2.vercel.app](https://breastdcedl-v2.vercel.app/)**.
 Se utiliza directamente desde el navegador, sin instalar programas ni crear una
 cuenta. Hace falta conexión a Internet para cargar la página y descargar los modelos.
 
